@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller</title>
+    <!--Style file-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <!--Headline-->
+        <h1>Dice Roller!</h1>
+
+        <!--container for both dice-->
+        <div id="diceContainer">
+            
+            <!--Die1-->
+            <div id="dieBox1">
+                <span id="die1">1</span>
+            </div>
+            
+            <!--die2-->
+            <div id="dieBox2">
+                <span id="die2">1</span>
+            </div>
+        </div><br><br>
+
+        <!--Container for die total-->
+        <div id="diceTotalContainer">
+            <div id="diceTotalBox">
+                <span id="dieTotal">Roll total = 2</span>
+            </div>
+        </div><br><br>
+
+        <!--Roll dice button-->
+        <div id="rollButtBox">
+            <button type="button" id="rollButt" onclick="rollButt()">Roll Dice</button>
+        </div>
+    </div>
+    
+    <!--JS file-->
+    <script src="app.js"></script>
+</body>
+</html>
